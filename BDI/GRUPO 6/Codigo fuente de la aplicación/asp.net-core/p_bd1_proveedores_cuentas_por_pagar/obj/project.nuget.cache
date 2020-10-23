@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wPFOV7ihc3Xo/DF6M5GKuv5snzfKsKpF4EEj8E253VDFm+PfIKBQPBSgGCGHKur2el4G0HbC4jpT2UlEE6v2TA==",
+  "dgSpecHash": "ujsrOMv+L+cD1k4enTpfWpodqkcgcgu73j6c5UfRC9/GLDjc3wMjbysdxuupZmKqmyYnjQA0SDoz/yd3IoHT6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Ambeliz\\.nuget\\packages\\oracle.manageddataaccess.core\\2.19.91\\oracle.manageddataaccess.core.2.19.91.nupkg.sha512"
+  ],
   "logs": []
 }

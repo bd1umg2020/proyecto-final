@@ -1,11 +1,40 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Oracle.ManagedDataAccess.Core/2.19.91": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Oracle.ManagedDataAccess.Core/2.19.91": {
+      "sha512": "Jgrn+kEbB9kWloFfxiP9Agzq8qK3tanbRDZJinICY0t94gmqkC/OwyzlQLJf8SLymBH8urBMopkqpAIyD564ww==",
+      "type": "package",
+      "path": "oracle.manageddataaccess.core/2.19.91",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PerfCounters/register_odpc_perfmon_counters.ps1",
+        "PerfCounters/unregister_odpc_perfmon_counters.ps1",
+        "info.txt",
+        "lib/netstandard2.0/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.core.2.19.91.nupkg.sha512",
+        "oracle.manageddataaccess.core.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Oracle.ManagedDataAccess.Core >= 2.19.91"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Carlos Ambeliz\\.nuget\\packages\\": {}
@@ -13,11 +42,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
       "projectName": "p_bd1_proveedores_cuentas_por_pagar",
-      "projectPath": "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
+      "projectPath": "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
       "packagesPath": "C:\\Users\\Carlos Ambeliz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\obj\\",
+      "outputPath": "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Carlos Ambeliz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +72,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "Oracle.ManagedDataAccess.Core": {
+            "target": "Package",
+            "version": "[2.19.91, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

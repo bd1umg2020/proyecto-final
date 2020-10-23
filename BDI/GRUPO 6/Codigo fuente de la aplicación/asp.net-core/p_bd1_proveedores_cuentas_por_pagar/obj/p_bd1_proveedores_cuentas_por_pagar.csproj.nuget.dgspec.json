@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj": {}
+    "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj": {
+    "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
         "projectName": "p_bd1_proveedores_cuentas_por_pagar",
-        "projectPath": "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
+        "projectPath": "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar.csproj",
         "packagesPath": "C:\\Users\\Carlos Ambeliz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos Ambeliz\\source\\repos\\p_bd1_proveedores_cuentas_por_pagar\\p_bd1_proveedores_cuentas_por_pagar\\obj\\",
+        "outputPath": "C:\\Users\\Carlos Ambeliz\\Desktop\\GITHUB BD1\\proyecto-final\\BDI\\GRUPO 6\\Codigo fuente de la aplicación\\asp.net-core\\p_bd1_proveedores_cuentas_por_pagar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Carlos Ambeliz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.91, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
