@@ -21,6 +21,10 @@ namespace p_bd1_proveedores_cuentas_por_pagar.Controllers
 
         public IActionResult Index()
         {
+            if (true)
+            {
+                return RedirectToAction("Login");
+            }
             ViewBag.lista_resultados = "";
             var connection = "Data Source=31.193.227.12:1521/ORCLCDB.localdomain; User Id=proyectobd; Password=proyectobd;";
             using (OracleConnection con = new OracleConnection(connection))
@@ -53,6 +57,11 @@ namespace p_bd1_proveedores_cuentas_por_pagar.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
         {
             return View();
         }

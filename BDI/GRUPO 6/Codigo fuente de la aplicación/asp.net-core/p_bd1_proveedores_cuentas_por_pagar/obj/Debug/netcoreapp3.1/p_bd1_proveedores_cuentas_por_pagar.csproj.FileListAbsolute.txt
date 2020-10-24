@@ -111,3 +111,4 @@ C:\Users\Carlos Ambeliz\Desktop\GITHUB BD1\proyecto-final\BDI\GRUPO 6\Codigo fue
 C:\Users\Carlos Ambeliz\Desktop\GITHUB BD1\proyecto-final\BDI\GRUPO 6\Codigo fuente de la aplicación\asp.net-core\p_bd1_proveedores_cuentas_por_pagar\obj\Debug\netcoreapp3.1\p_bd1_proveedores_cuentas_por_pagar.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Carlos Ambeliz\Desktop\GITHUB BD1\proyecto-final\BDI\GRUPO 6\Codigo fuente de la aplicación\asp.net-core\p_bd1_proveedores_cuentas_por_pagar\obj\Debug\netcoreapp3.1\Razor\Views\proveedor\Create.cshtml.g.cs
 C:\Users\Carlos Ambeliz\Desktop\GITHUB BD1\proyecto-final\BDI\GRUPO 6\Codigo fuente de la aplicación\asp.net-core\p_bd1_proveedores_cuentas_por_pagar\obj\Debug\netcoreapp3.1\Razor\Views\proveedor\Index.cshtml.g.cs
+C:\Users\Carlos Ambeliz\Desktop\GITHUB BD1\proyecto-final\BDI\GRUPO 6\Codigo fuente de la aplicación\asp.net-core\p_bd1_proveedores_cuentas_por_pagar\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
