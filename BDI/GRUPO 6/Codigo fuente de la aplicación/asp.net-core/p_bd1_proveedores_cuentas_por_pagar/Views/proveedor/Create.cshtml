@@ -1,0 +1,57 @@
+﻿@model p_bd1_proveedores_cuentas_por_pagar.Models.Proveedor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Proveedor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+                <label asp-for="ID_PROVEEDOR" class="control-label"></label>
+                <input asp-for="ID_PROVEEDOR" class="form-control" />
+                <span asp-validation-for="ID_PROVEEDOR" class="text-danger"></span>
+            </div>*@
+            @*<div class="form-group">
+                <label asp-for="ID_TIPO_PROVEEDOR" class="control-label"></label>
+                <input asp-for="ID_TIPO_PROVEEDOR" class="form-control" />
+                <span asp-validation-for="ID_TIPO_PROVEEDOR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_PERSONA" class="control-label"></label>
+                <input asp-for="ID_PERSONA" class="form-control" />
+                <span asp-validation-for="ID_PERSONA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ID_DIRECCION" class="control-label"></label>
+                <input asp-for="ID_DIRECCION" class="form-control" />
+                <span asp-validation-for="ID_DIRECCION" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="NOMBRE_PROVEEDOR" class="control-label"></label>
+                <input asp-for="NOMBRE_PROVEEDOR" class="form-control" />
+                <span asp-validation-for="NOMBRE_PROVEEDOR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NIT_PROVEEDOR" class="control-label"></label>
+                <input asp-for="NIT_PROVEEDOR" class="form-control" />
+                <span asp-validation-for="NIT_PROVEEDOR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+            <hr />
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
