@@ -1,0 +1,40 @@
+﻿@model p_bd1_proveedores_cuentas_por_pagar.Models.Municipio
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Municipio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ID_DEPARTAMENTO" class="control-label"></label> <BR />
+                @{
+
+                    List<SelectListItem> paises = ViewBag.departamentos;
+                    @Html.DropDownListFor(x => x.ID_DEPARTAMENTO, paises, "Seleccione departamento");
+                }
+                <span asp-validation-for="ID_DEPARTAMENTO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NOMBRE_MUNICIPIO" class="control-label"></label>
+                <input asp-for="NOMBRE_MUNICIPIO" class="form-control" />
+                <span asp-validation-for="NOMBRE_MUNICIPIO" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

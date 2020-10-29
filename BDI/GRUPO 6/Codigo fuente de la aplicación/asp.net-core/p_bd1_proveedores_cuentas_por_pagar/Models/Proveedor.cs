@@ -13,5 +13,7 @@ namespace p_bd1_proveedores_cuentas_por_pagar.Models
         public int ID_DIRECCION { get; set; }
         public string NOMBRE_PROVEEDOR { get; set; }
         public string NIT_PROVEEDOR { get; set; }
+        public string NOMBRE_TIPO_PROVEEDOR { get; internal set; }
+        public string DIRECCION { get; internal set; }
     }
 }

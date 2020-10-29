@@ -35,26 +35,21 @@ namespace p_bd1_proveedores_cuentas_por_pagar.Controllers
         }
         public static OracleDataReader ExecuteReader(string sql)
         {
-            using (OracleConnection con = new OracleConnection(connection_string))
+            OracleConnection con = new OracleConnection(connection_string);
+            OracleCommand cmd = new OracleCommand();
+            try
             {
-                using (OracleCommand cmd = new OracleCommand())
-                {
-                    try
-                    {
-                        con.Open();
-                        //cmd.BindByName = true;
-                        cmd.Connection = con;
-                        cmd.CommandText = sql;
-                        return cmd.ExecuteReader();
-                    }
-                    catch (Exception ex)
-                    {
-
-                        throw ex;
-                    }
-                }
-
+                con.Open();
+                //cmd.BindByName = true;
+                cmd.Connection = con;
+                cmd.CommandText = sql;
+                return cmd.ExecuteReader();
             }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+          
         }
     }
 }

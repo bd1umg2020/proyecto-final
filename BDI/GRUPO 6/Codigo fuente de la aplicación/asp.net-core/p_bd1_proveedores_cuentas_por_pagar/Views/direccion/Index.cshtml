@@ -1,0 +1,64 @@
+﻿@model IEnumerable<p_bd1_proveedores_cuentas_por_pagar.Models.Direccion_>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_DIRECCION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DIRECCION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NOMBRE_ZONA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NOMBRE_MUNICIPIO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NOMBRE_DEPARTAMENTO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NOMBRE_PAIS)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID_DIRECCION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DIRECCION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOMBRE_ZONA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOMBRE_MUNICIPIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOMBRE_DEPARTAMENTO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOMBRE_PAIS)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ID_DIRECCION }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID_DIRECCION })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

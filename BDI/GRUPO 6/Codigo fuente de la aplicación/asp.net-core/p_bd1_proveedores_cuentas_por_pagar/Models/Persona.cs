@@ -15,6 +15,6 @@ namespace p_bd1_proveedores_cuentas_por_pagar.Models
         public string CORREO_PERSONA { get; set; }
         public string DPI_PERSONA { get; set; }
         public string NIT_PERSONA { get; set; }
-        public int TELEFONO { get; set; }
+        public string TELEFONO { get; set; }
     }
 }
